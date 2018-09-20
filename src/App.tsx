@@ -1,22 +1,16 @@
 import * as React from 'react';
-import './App.css';
+// import { Route, Switch } from 'react-router-dom';
+import { Switch } from 'react-router-dom';
 
-import logo from './logo.svg';
+import Boilerplate from './boilerplate/Boilerplate';
 
-class App extends React.Component {
-  public render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <Boilerplate>
+    <Switch>
+      {/*<Route exact={true} path="/" component={Home} />
+      <Route path="/teaching" component={Teaching} /> */}
+    </Switch>
+  </Boilerplate>
+);
 
 export default App;
