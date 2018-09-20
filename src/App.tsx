@@ -1,14 +1,15 @@
 import * as React from 'react';
-// import { Route, Switch } from 'react-router-dom';
-import { Switch } from 'react-router-dom';
+import { Route, Switch } from 'react-router-dom';
 
 import Boilerplate from './boilerplate/Boilerplate';
+import Courses from './myplan/courses/'
+import Programs from './myplan/programs/'
 
 const App = () => (
   <Boilerplate>
     <Switch>
-      {/*<Route exact={true} path="/" component={Home} />
-      <Route path="/teaching" component={Teaching} /> */}
+      <Route path="/programs" component={Programs} />
+      <Route path="/courses" component={Courses} />
     </Switch>
   </Boilerplate>
 );
