@@ -11,7 +11,7 @@ class NavMenu extends React.Component<{}> {
         <li><a href="#"><i className="fas fa-link" /> Item</a></li>
         <li><a href="#"><i className="fas fa-link" /> Item</a></li>
         <li><hr /></li>
-        <li><a href="#"><i className="fas fa-link" /> Item</a></li>
+        <li><NavLink to="/registration" activeClassName="u-active"> <i className="fas fa-link" /> Registration</NavLink></li>
         <li><a href="#"><i className="fas fa-link" /> Item</a></li>
 
       </ul>
