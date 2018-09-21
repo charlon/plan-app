@@ -8,6 +8,8 @@ const mastStyle = {
   backgroundImage: `url(${logo})`
 }
 
+import '@fortawesome/fontawesome-free/css/all.min.css'
+import 'bootstrap/dist/css/bootstrap-reboot.css'
 import './boilerplate.css';
 
 class Boilerplate extends React.Component<{}> {
