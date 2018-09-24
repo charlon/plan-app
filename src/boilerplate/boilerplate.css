@@ -111,7 +111,7 @@ body {
       flex-grow: 0;
       flex-shrink: 1;
       flex-basis: auto;
-      flex: 0 1 auto; } }
+      flex: 0 0 200px; } }
   .bp-navigation .bp-welcome {
     display: none; }
     @media (min-width: 1024px) {

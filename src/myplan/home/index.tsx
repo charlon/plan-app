@@ -13,14 +13,27 @@ class Home extends React.Component<any, any> {
   public render() {
     return (
       <div>
-        <Card body={true} className="">
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        </Card>
 
-        <Card body={true} className="">
-          <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
-        </Card>
-      </div>
+      <div className="row no-gutters">
+       <div className="col-sm">
+         <Card body={true} className="">
+           <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+         </Card>
+       </div>
+       <div className="col-sm">
+         <Card body={true} className="">
+           <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+         </Card>
+       </div>
+       <div className="col-sm">
+         <Card body={true} className="">
+           <CardText>With supporting text below as a natural lead-in to additional content.</CardText>
+         </Card>
+       </div>
+     </div>
+
+     </div>
+
     );
   }
 }
