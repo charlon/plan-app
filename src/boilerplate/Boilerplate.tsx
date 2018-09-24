@@ -29,11 +29,11 @@ class Boilerplate extends React.Component<{}> {
         <header role="banner" className="bp-header">
           <div className="bp-thin-bar">
             <div className="bp-container">
-              <div className="bp-user"><i className="fas fa-user" />&nbsp;&nbsp;netid</div>
+              <div className="bp-user"><i className="fas fa-user" />&nbsp;&nbsp;jjulius</div>
               <div className="bp-links">
                 <ul>
-                  <li><i className="fas fa-external-link-alt" /> Link</li>
-                  <li><i className="fas fa-external-link-alt" /> Link</li>
+                  <li><i className="fas fa-external-link-alt" /> MyUW</li>
+                  <li><i className="fas fa-external-link-alt" /> UW.edu</li>
                   <li><i className="fas fa-question-circle" /> Help</li>
                 </ul>
               </div>
@@ -48,9 +48,9 @@ class Boilerplate extends React.Component<{}> {
                     <i className="fa fa-bars fa-stack-1x" />
                   </span>
                 </button>
-                <span>MyApplication</span>
+                <span>MyPlan</span>
               </div>
-              <div className="bp-title-desktop">MyApplication</div>
+              <div className="bp-title-desktop">MyPlan</div>
             </div>
           </div>
         </header>
