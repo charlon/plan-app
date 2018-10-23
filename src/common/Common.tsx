@@ -40,7 +40,15 @@ class Common extends React.Component<{}> {
                 </button>
                 <span>MyPlan</span>
               </div>
-              <div className="com-title-desktop">MyPlan</div>
+              <div className="com-title-desktop">
+                <button className="com-title-button" id="nav_button">
+                  <span className="fa-stack fa-2x com-title-button-icon" aria-hidden="true">
+                    <i className="far fa-square fa-stack-2x" />
+                    <i className="fa fa-bars fa-stack-1x" />
+                  </span>
+                </button>
+                <span>MyPlan</span>
+              </div>
             </div>
           </div>
         </header>

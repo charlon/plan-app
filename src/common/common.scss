@@ -37,7 +37,6 @@ body { min-width: 320px; }
 
   .com-masthead {
     background: #4b2e83;
-    height: $nav-height;
 
     .com-title-mobile {
       display: block;
@@ -62,10 +61,14 @@ body { min-width: 320px; }
       @include breakpoint(desktop) {
         display: block;
         color: #fff;
-        font-size: 26px;
+        font-size: 40px;
         font-weight: 400;
-        line-height:$nav-height;
-        height: $nav-height;
+        line-height:60px;
+        height: 60px;
+
+        .com-title-button  { padding: 0; margin: 0; background: none; border: none; margin-right: 15px; }
+        .com-title-button-icon { font-size: 16px; color: #ccc; vertical-align: middle; margin-top: -5px;}
+
       }
 
     }
