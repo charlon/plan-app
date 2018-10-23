@@ -1,0 +1,71 @@
+@import './mixins.scss';
+@import './variables.scss';
+
+body { min-width: 320px; }
+
+/** global elements **/
+.com-container {
+
+  margin: 0 auto;
+  padding: 0 16px;
+
+  @include breakpoint(desktop) {
+    max-width: 1200px;
+  }
+}
+
+/** header section **/
+.com-header { clear: both;
+
+  .com-thin-bar { background: #444; line-height: 33px; font-size: 12px; color: #fff;
+
+    .com-links {
+      ul {margin: 0; padding: 0; list-style: none;
+        li { display: inline-block; border-right: dotted 1px #5e5e5e; padding: 0 15px;
+          &:first-child { padding: 0 15px 0 0; }
+        }
+      }
+    }
+
+    .com-user { }
+
+  }
+
+  .com-masthead {
+    background: #4b2e83;
+    height: $nav-height;
+
+    .com-title-mobile {
+      display: block;
+      color: #fff;
+      font-size: 18px;
+      white-space: nowrap;
+      line-height:$nav-height;
+      height: $nav-height;
+
+      .com-title-button  { padding: 0; margin: 0; background: none; border: none; }
+      .com-title-button-icon { font-size: 14px; color: #ccc; vertical-align: middle; margin-top: -5px;}
+
+      @include breakpoint(desktop) {
+        display: none;
+      }
+
+    }
+
+    .com-title-desktop {
+      display: none;
+
+      @include breakpoint(desktop) {
+        display: block;
+        color: #fff;
+        font-size: 26px;
+        font-weight: 400;
+        line-height:$nav-height;
+        height: $nav-height;
+      }
+
+    }
+
+  }
+
+}

@@ -88,8 +88,11 @@ body {
     .bp-header .bp-masthead .bp-logo {
       background-repeat: no-repeat;
       background-size: 45px;
-      background-position: right 20px bottom;
+      background-position: 94% 36px;
       height: 65px; }
+      @media (min-width: 1024px) {
+        .bp-header .bp-masthead .bp-logo {
+          background-position: 98% 36px; } }
 
 /** body section **/
 .bp-body {

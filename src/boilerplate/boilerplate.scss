@@ -98,8 +98,12 @@ body { min-width: 320px; }
     .bp-logo {
       background-repeat: no-repeat;
       background-size: 45px;
-      background-position: right 20px bottom;
+      background-position: 94% 36px;
       height: $nav-height;
+
+      @include breakpoint(desktop) {
+        background-position: 98% 36px;
+      }
     }
 
   }
