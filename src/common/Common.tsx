@@ -19,7 +19,11 @@ class Common extends React.Component<{}> {
                 <ul>
                   <li>MyUW</li>
                   <li>UW.edu</li>
-                  <li>W</li>
+                </ul>
+              </div>
+              <div className="com-user">
+                <ul>
+                  <li><i className="fas fa-user" /></li>
                   <li><i className="fas fa-question-circle" /></li>
                 </ul>
               </div>

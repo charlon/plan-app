@@ -15,19 +15,23 @@ body { min-width: 320px; }
 }
 
 /** header section **/
-.com-header { clear: both;
+.com-header {
 
-  .com-thin-bar { background: #444; line-height: 33px; font-size: 12px; color: #fff;
+  .com-thin-bar { background: #444; height: 33px; line-height: 33px; font-size: 12px; color: #fff; clear: both;
 
-    .com-links {
-      ul {margin: 0; padding: 0; list-style: none;
+    ul {margin: 0; padding: 0; list-style: none; }
+
+    .com-links { float:left; width: 50%;
         li { display: inline-block; border-right: dotted 1px #5e5e5e; padding: 0 15px;
           &:first-child { padding: 0 15px 0 0; }
         }
-      }
     }
 
-    .com-user { }
+    .com-user { float: right; width: 50%; text-align: right;;
+      li { display: inline-block; border-left: dotted 1px #5e5e5e; padding: 0 15px;
+        &:last-child { padding: 0 0 0 15px; }
+      }
+    }
 
   }
 
@@ -38,12 +42,12 @@ body { min-width: 320px; }
     .com-title-mobile {
       display: block;
       color: #fff;
-      font-size: 18px;
+      font-size: 24px;
       white-space: nowrap;
       line-height:$nav-height;
       height: $nav-height;
 
-      .com-title-button  { padding: 0; margin: 0; background: none; border: none; }
+      .com-title-button  { padding: 0; margin: 0; background: none; border: none; margin-right: 15px; }
       .com-title-button-icon { font-size: 14px; color: #ccc; vertical-align: middle; margin-top: -5px;}
 
       @include breakpoint(desktop) {
